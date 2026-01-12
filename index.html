@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Indie Shop">
+  <meta name="description" content="The official website for Indie Shop">
+  <title>IndieShop</title>
+  <link rel="stylesheet" href="./styles/index.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1 class="header__h1">Indie Shop</h1>
+      <button class="header__interaction-btn">Inicia Sesión</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__text">
+        <h2 class="hero__title">Discover Your Style</h2>
+        <p class="hero__subtitle">Explore our latest collections and find your perfect fit</p>
+      </div>
+
+      <!-- Category Boxes -->
+      <div class="hero-boxes">
+        <a href="#" class="hero-box bg-emerald-600">
+          <div class="hero-box__overlay"></div>
+          <h3 class="hero-box__h3">NEXT DROPS</h3>
+        </a>
+        <a href="#" class="hero-box bg-emerald-700">
+          <div class="hero-box__overlay"></div>
+          <h3 class="hero-box__h3">TRENDING</h3>
+        </a>
+        <a href="#" class="hero-box bg-emerald-800">
+          <div class="hero-box__overlay"></div>
+          <h3 class="hero-box__h3">RECENTLY ADDED</h3>
+        </a>
+        <a href="#" class="hero-box bg-emerald-600">
+          <div class="hero-box__overlay"></div>
+          <h3 class="hero-box__h3">SNEAKERS</h3>
+        </a>
+        <a href="#" class="hero-box bg-emerald-700">
+          <div class="hero-box__overlay"></div>
+          <h3 class="hero-box__h3">SWEATERS</h3>
+        </a>
+        <a href="#" class="hero-box bg-emerald-800">
+          <div class="hero-box__overlay"></div>
+          <h3 class="hero-box__h3">SHIRTS</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products">
+    <div class="container">
+      <div class="products__header">
+        <h2 class="products__title">DROPS</h2>
+        <button class="btn btn-outline">View All</button>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <input type="text" placeholder="What are you looking for?" class="search-bar__input">
+        <input type="text" placeholder="Brand in specific?" class="search-bar__input">
+        <input type="text" placeholder="Price Range" class="search-bar__input">
+        <input type="text" placeholder="Date" class="search-bar__input">
+        <input type="text" placeholder="Size" class="search-bar__input">
+      </div>
+
+      <!-- Products Grid -->
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-card__image-container">
+            <img src="./img/tshirt.jpg" alt="Green sports t-shirt" class="product-card__image">
+            <div class="product-card__overlay">
+              <button class="btn btn-primary">Quick View</button>
+            </div>
+          </div>
+          <div class="product-card__content">
+            <span class="product-card__brand">adidas</span>
+            <h3 class="product-card__name">Green sports t-shirt</h3>
+            <div class="product-card__stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="product-card__footer">
+              <p class="product-card__price">$78</p>
+              <button class="product-card__cart-btn" aria-label="Add to cart">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+      <div class="load-more">
+        <button class="btn btn-primary">Load More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__column">
+          <h3 class="footer__title">Indie Shop</h3>
+          <p class="footer__text">Your destination for unique and stylish clothing from independent designers.</p>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__title">Quick Links</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Home</a></li>
+            <li><a href="#" class="footer__link">Shop</a></li>
+            <li><a href="#" class="footer__link">About Us</a></li>
+            <li><a href="#" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__title">Newsletter</h3>
+          <p class="footer__text">Subscribe to get special offers and updates.</p>
+          <div class="footer__newsletter">
+            <input type="email" placeholder="Your email" class="footer__input">
+            <button class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2023 Indie Shop. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
